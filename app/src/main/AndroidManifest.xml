@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Menambahkan izin untuk mengakses kamera -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/tampilan"
+        android:label="Wenzz Apps"
+        android:roundIcon="@drawable/tampilan"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kalkulator"
+        tools:targetApi="31"
+        tools:ignore="LockedorientationActivity">
+
+        <!-- Aktivitas Splash -->
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Aktivitas Utama -->
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+
+        <!-- Aktivitas Kalkulator -->
+        <activity android:name=".SecondActivity" />
+
+        <!-- Aktivitas Scan QR -->
+        <activity android:name=".ScanActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <!-- Aktivitas Visi Misi -->
+        <activity android:name=".VisiActivity"></activity>
+
+        <!-- Aktivitas Peta -->
+        <activity android:name=".MapActivity"></activity>
+
+        <!-- Aktivitas Wisata -->
+        <activity android:name=".WisataActivity"></activity>
+    </application>
+</manifest>

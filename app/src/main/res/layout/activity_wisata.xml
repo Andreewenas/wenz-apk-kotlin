@@ -1,0 +1,544 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ps">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/obelix"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Obelix Hills"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon1"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Obelix Hills adalah tempat wisata kekinian dengan pemandangan sunset dari ketinggian, resto, dan 30 spot foto."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/breksi"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tebing Breksi"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon2"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tebing Breksi adalah sebuah tempat wisata alam di Jogja. Sesuai dengan namanya, tempat wisata ini merupakan perbukitan batuan breksi."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/heha"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Heha Sky View"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon3"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heha Sky View memiliki konsep perpaduan antara wisata alam dan modern yang disatukan dalam sebuah restoran."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pinus"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hutan Pinus Mangunan"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon4"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hutan Pinus Mangunan merupakan hutan lindung yang disulap menjadi kawasan ekowisata."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tamanpintar"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taman Pintar"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon5"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dengan bertemakan science park, Taman Pintar menawarkan wahana edukasi untuk mengajak pengunjungnya belajar dengan cara yang menyenangkan."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/watu"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watu Goyang"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon6"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Di tempat ini, pengunjung bisa melihat sunset setelah mendaki bukit yang tidak terlalu curam dan hanya membutuhkan waktu 5-10 menit perjalanan dari pintu masuk."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/goa"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Goa Jomblang"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon7"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Goa Jomblang merupakan salah satu dari ratusan goa di kawasan Gunungkidul."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bunker"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bunker Kaliadem"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon8"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disini selain bisa belajar mengenai sejarah letusan Gunung Merapi, kamu juga bisa menikmati sejuk dan ketenangan di kawasan ini."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pantai"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pantai Parangtritis"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon9"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pantai Parangtritis adalah pantai terkenal di Yogyakarta yang dekat dengan Kota Jogja."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/menu_shape">
+
+            <ImageView
+                android:id="@+id/infoImage10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/malioboro"
+                android:background="@drawable/image_background"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/judulText10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malioboro"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/locationIcon10"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="360dp"
+                    android:onClick="openMapLocation"
+                    android:src="@drawable/iconmap" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/infoText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malioboro Jogja adalah kawasan yang menjadi daya tarik utama kota Jogja dengan berbagai keunikan."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
